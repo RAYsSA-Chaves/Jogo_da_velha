@@ -3,6 +3,10 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quadrado {
@@ -17,9 +21,15 @@
   background-color: rgb(56, 56, 73);
   border-radius: 8px;
   padding: 1rem 0.2rem 0.2rem 1rem;
+  width: fit-content;
 } 
 
-.quadrado.clicado {
+.quadrado.disabled {
   pointer-events: none;
   outline: none;
+}
+
+p {
+  font-size: 3em;
+  font-weight: 800;
 }

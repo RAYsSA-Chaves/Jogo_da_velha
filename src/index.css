@@ -20,11 +20,6 @@ body {
   background-color: rgb(77, 77, 95);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -36,6 +31,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   text-align: center;
+  color: #fff;
 }
 button:hover {
   border: solid 3px rgb(104, 104, 121);
@@ -43,14 +39,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
