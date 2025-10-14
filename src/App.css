@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.quadrado {
+  background-color: rgba(248, 248, 248, 0.397);
+  width: 100px;
+  height: 100px;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.containerTabuleiro {
+  background-color: rgb(56, 56, 73);
+  border-radius: 8px;
+  padding: 1rem 0.2rem 0.2rem 1rem;
+} 
+
+.quadrado.clicado {
+  pointer-events: none;
+  outline: none;
+}
