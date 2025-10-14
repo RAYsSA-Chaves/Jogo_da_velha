@@ -3,6 +3,8 @@
 // exibir quem ganhou e bloquear tudo
 // exibir confetes
 // resertar (botao jogar de novo)
+// só mostra vencedor quando clica, se for a última rodada não tem mais clique, então não mostra vencedor
+// só o X consegue ganhar
 
 import { useState } from "react";
 import Quadrado from "./quadrado";
@@ -86,4 +88,5 @@ export default function Tabuleiro() {
                 </div>
             </main>
     )
+
 }
