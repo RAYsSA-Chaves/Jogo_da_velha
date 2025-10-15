@@ -1,5 +1,3 @@
-// exibir confetes
-
 import { useState } from "react";
 import Quadrado from "./quadrado";
 
@@ -96,3 +94,4 @@ export default function Tabuleiro({ vez, setVez, vencedor, setVencedor, setVelha
         </main>
     )
 }
+
